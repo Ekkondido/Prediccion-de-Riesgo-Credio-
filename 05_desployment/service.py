@@ -1,10 +1,11 @@
-# service.py
-
+from pathlib import Path
 import joblib
-import pandas as pd
 
-# Cargar modelo entrenado
-model = joblib.load("artifacts/model.pkl")
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+model = joblib.load(BASE_DIR / "artifacts" / "model.pkl")
+features = joblib.load(BASE_DIR / "artifacts" / "features.pkl")
+
 
 # Umbrales de decisión
 THRESHOLD_APPROVE = 0.30
