@@ -83,5 +83,12 @@ Como uso futuro, este proyecto podría ser incorporado en un entorno productivo 
 personalización de servicios o análisis predictivo. Además, el modelo puede ser mejorado incorporando nuevas variables, ajustando hiperparámetros o evaluando técnicas adicionales 
 de Machine Learning que permitan optimizar los resultados.
 
+________________________________________________________________________________________________________________________
+5. API / Despliegue
+
+El modelo entrenado puede ser consumido mediante una API, la cual permite recibir los datos de un solicitante y retornar una probabilidad de incumplimiento
+junto con una recomendación de decisión.
+La API forma parte de la etapa de despliegue del proyecto.
+
 
 
